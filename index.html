@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titus's Portfolio</title>
+  </head>
+  <body>
+    <header id="container">
+      <div id="overlay">
+        <h1 class="name">Titus Liu</h1>
+        <div class="icons">
+          <a id="github-icon" class="icon" target="_blank" href="https://github.com/definitelynottitus">
+            <svg height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          </a>
+          <a a id="linkedin-icon" class="icon" target="_blank" href="https://www.linkedin.com/in/titusl/">
+            <svg width="32" height="32" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="spacer"></div>
+    <div id="app"></div>
+    <main>
+      <section>
+        <h2>👋 Hello there!</h2>
+        <p>
+          Welcome to my site where you can find my curated past/current works and resume below. I am a recently graduated aspiring data scientist who is interested in data visualization, analysis reports, and machine learning. However, my hobbies are not bound by data-related topics alone. I also enjoy web development (like coding up this website), cycling, and skiing. See you soon in the web!
+        </p>
+      </section>
+
+      <section>
+        <h2>📁 Projects</h2>
+        <hr class="fancy-lines">
+        <h3><a class= "link link--metis" href="https://titusl.shinyapps.io/topic_modeling_demo/" target="_blank">RShiny Dashboard on Topic modeling for EA</a></h3>
+        <p>
+          I was the lead data analyst in this group semester project where I used my knowledge in data science to take on the challenge of finding useful player feedback in a compiled text-based dataset for EA's community playtest team. Using R, a text corpus was created using preprocessed raw text data and was used to generate a document feature matrix for modelling. Making use of natural language processing models, such as Latent Dirichlet Allocation and Structural Topic Modeling, we were able to discover hidden trends among player feedback. Lastly, I developed and deployed a front-end user interface using Shiny from Rstudio to allow users to extract insight from any text dataset using natural language processing models. 
+        </p>
+        <h3><a class= "link link--metis" href="./documents/Drug_Shortage_Report_By_Titus_Liu.pdf" target="_blank">Canada Drug Shortage Report</a></h3>
+        <p>
+          This report highlights some of the causes of drug shortages in Canada and other statistics around them. I produced this report that is limited to two pages only with government databases as a final project for my undergraduate business class about customer analytics. I found the problem of drug shortage particularly interesting because drug shortage has a large impact on the health of Canadians. If this also piques your interest, please click on the title to view the full report.
+        </p>
+
+      </section>
+
+      <section>
+        <h2>📜 Resume 
+          <div class="end-of-line">
+          <a href="./documents/titusliu_resume_1page_latex.pdf" target="_blank">
+            <button class="button button--mimas">
+              <span>Download</span>
+            </button>
+          </a>
+        </div>
+        </h2>
+        <hr class="fancy-lines">
+        <p>This is a quick glance of my experience, education, and professional skill set.</p>
+        <div class="card">
+          <h3>Education</h3>
+          <p>
+            <b>B.Sc in Data Science</b><span class="end-of-line"> <i>Sept 2017 - Jun 2021</i></span>
+            <br>Simon Fraser University | Burnaby BC, Canada
+          </p>
+          <h3>Experience</h3>
+          <p>
+            <b>Data Analyst</b>
+            <span class="end-of-line"><i>Jan 2021 - Present</i></span>
+            <br>Lighter Foodprint<br>
+            <br>I created client relation management reports using Tableau Dashboards to help inform the customer growth team on partnership expansion. I also implemented a social media digital impact live graph using data gathered through API calls from all the social media sites.
+          </p>
+          <h3>Professional Skillset</h3>
+            <div class="skillset-box">
+              <div><div class="paragraph-icon"><img  src="assets/web-development.svg" width="40"/><h4>Web Development</h4></div><p>I am proficiency in HTML, CSS, JavaScript, AWS, and Google Cloud, but I am always interested in learning more about web development tools.</p></div>
+              <div><div class="paragraph-icon"><img src="assets/analytic.svg" width="40"/><h4>Analytic Mind</h4></div><p>I like taking on challenges that involve analytical thinking. More complex problems often require a lot of deconstructions to piece the solution together. As a data science, I am to achieve that by using data as supportive evidence to identify the root of the problem.</p></div>
+              <div><div class="paragraph-icon"><img src="assets/community.svg" width="40"/><h4>Community-oriented</h4></div><p>Building stronger connections to communities are what drives me to work harder and be more satisfied with the work I do. I enrich my communities by contributing to their social and economic development in long-lasting, sustainable ways such as my involvement to reduce the impact of climate change.</p></div>
+              <div><div class="paragraph-icon"><img src="assets/language.svg" width="40"/><h4>Languages</h4></div><p>I am a native Mandarin and Cantonese speaker, a proficient English speaker, and a basic Japanese speaker.</p></div>
+            </div>
+        </div>
+
+      </section>
+
+    </main>
+    <div class="spacer2"></div>
+    <div class="dark-footer">
+      <footer>
+        <div class="footer-container">
+          <div id="second-item">
+            <p class="copyright">Wow! If you are reading till this point, we must got a lot in common. Regardless of the reasons, you can reach out to me at <a class= "link-email link--metis" href="mailto:contact@titusl.com" target="_blank">contact@titusl.com</a></p></div>
+          <div id="first-item">
+            <p class="copyright">Titus Liu © 2022</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
